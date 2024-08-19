@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "SearchBar",
   "version": "1.0",
   "description": "Place toggle search bar on the center of the page with Shift + Q combination.",
@@ -8,7 +8,7 @@
     "storage"
   ],
   "icons": {
-    "48": "icon.png"
+    "64": "icon.png"
   },
   
   "action" : {
@@ -26,5 +26,12 @@
       "js": ["searchBar.js"],
       "css": ["style.css" , "logos.css"]
     }
-  ]
+  ],
+  
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nseangaming@gmail.com"
+    }
+  }
+
 }
